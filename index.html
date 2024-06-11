@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sam's Art Portfolio</title> 
+        <title>Wayne's Art Portfolio</title> 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
@@ -11,7 +11,7 @@
     <body>
         <header>
             <div class="mylogo">
-                <img src="images/sam_logo.png" width="50" height="50" alt="Sam's logo">
+                <img src="images/sam_logo.png" width="50" height="50" alt="Wayne's logo">
             </div>
             <button class="nav-btn" aria-label="nav-button">
                 <span class="btn"></span>
@@ -22,6 +22,7 @@
                     <li class="mynav_item"><a href="#skills" class="mynav_link">Creative Styles</a></li>
                     <li class="mynav_item"><a href="#about" class="mynav_link">About Me</a></li>
                     <li class="mynav_item"><a href="#projects" class="mynav_link">Art Projects</a></li>
+                    <li class="mynav_item"><a href="#contact" class="mynav_link">Contact</a></li> <!-- Added Contact link -->
                 </ul>
             </nav>
         </header>
@@ -29,10 +30,10 @@
         <!-- Top Introduction Section -->
         <section class="topintro" id="home">
             <h1 class="sectitle sectitle_intro">
-                Hi there! I'm <strong>Sam Jones</strong>, a passionate artist.
+                Hi there! I'm <strong>Wayne Nganju</strong>, a passionate artist.
             </h1>
-            <p class="secsubtitle secsubtitle_intro"><strong>Welcome to my world of creativity</strong></p>
-            <img src="images/artist.jpg" width="220" height="220" alt="Sam display image" class="first_img">
+            <p class="secsubtitle secsubtitle_intro"><strong>Welcome to my world of creativity and imagination</strong></p> <!-- Modified text -->
+            <img src="images/artist.jpg" width="220" height="220" alt="Wayne display image" class="first_img">
         </section>
 
         <!-- My Creative Style Section -->
@@ -52,6 +53,11 @@
                 <div class="skill">
                     <h3>Visual Art</h3>
                     <p>Through visual art, I explore the intersection of nature and human experience, capturing moments that evoke deep emotional responses.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Digital Art</h3> <!-- New skill added -->
+                    <p>Embracing technology, I create digital artworks that blend traditional techniques with modern digital tools.</p>
                 </div>
             </div>
             <a href="#projects" class="button">Explore My Art Projects</a>
@@ -109,9 +115,27 @@
             </div>
         </section>
 
+        <!-- New Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="sectitle">Get In Touch</h2>
+            <p class="secsubtitle">Feel free to reach out for collaborations or commissions</p>
+            <form class="contact_form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
         <!-- Page Footer -->
         <footer class="footer">
-            <a href="mailto:sam.artist@gmail.com" class="footer_link">sam.artist@gmail.com</a>
+            <a href="mailto:wayne.artist@gmail.com" class="footer_link">wayne.artist@gmail.com</a> <!-- Updated email -->
             <ul class="social_links">
                 <li class="socialitem">
                     <a class="socialitemlink" href="https://twitter.com"><i class="fab fa-twitter"></i> Twitter</a>
